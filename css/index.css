@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::selection{
+    background-color: chocolate;
+}
+ul{
+    background-color: rgb(71, 70, 70);
+    text-align: center;
+    
+}
+ul li{
+display: inline-block;
+margin-left: 20px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: red;
+}
+.main-img{
+    background-image: url('../imagees/images.jpg');
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.parent{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.grandPa{
+    
+    display: flex;
+  
+
+}
+ .grandPa .child  {
+  width: 30%;
+  margin: auto;
+  padding: 20px;
+  height: 200px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+.grandMa h1{
+    color: red;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.child{
+    margin: auto;
+    background-color: rgb(151, 151, 148);
+    
+    border-radius: 20px;
+    color: rgb(26, 22, 22);
+    
+}
+.child:hover{
+    box-shadow: 3px 3px 10px red;
+    transform: translateX(3px);
+}
+
+i{
+    color: red;
+    font-size: 30px;
+    background-color: rgb(22, 9, 9);
+    border-radius: 20%;
+}
+h3{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(13, 112, 18);
+}
+.content{
+    /* width: 80%; */
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(231, 231, 224);
+    padding:50px;
+}
+.content h1{
+    color: red;
+    margin-bottom: 10px;
+}
+.contact-us{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.contact-form{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    /* border-radius: 10px; */
+    background-color: rgb(241, 235, 227);
+    padding: 20px;
+}
+.input-form{
+    margin-bottom: 20px;
+}
+.input-form input{
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.input-form textarea{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.send{
+background-color: red;
+color: white;
+width: 200px;
+height: 50px;
+border: 1px solid white;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+}
